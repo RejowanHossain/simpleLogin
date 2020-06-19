@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+<body>
+    <form action="#" class="sign-form">
+        <h2>Sign Up</h2>
+        <div class="inputs">
+            <div class="textb">
+                <input type="text">
+                <span data-placeholder="Username"></span>
+            </div>
+
+            <div class="textb">
+                <input type="email">
+                <span data-placeholder="Email"></span>
+            </div>
+            <div class="textb">
+                <input type="password">
+                <span data-placeholder="Password"></span>
+            </div>
+            <div class="textb">
+                <input type="password">
+                <span data-placeholder="Confirm Password"></span>
+            </div>
+            <button class="signup ">Sign Up</button>
+        </div>
+    </form>
+
+
+    <script type="text/javascript">
+        $(".textb input").on("focus", function () {
+            // $(this).addClass("focus");
+            alert('dad')
+        });
+    </script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
